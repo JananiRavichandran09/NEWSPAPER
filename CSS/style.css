@@ -41,6 +41,7 @@ border: 1px solid black;
 .two {
     width: 700px;
     height: 450px;
+    border-radius: 2px solid yellow;
     position: relative;
 }
 .two img{
@@ -106,7 +107,4 @@ border: 1px solid black;
         font-style: italic;
         font-weight: bolder;
         font-size: larger;
-}
-.l-line{
-    margin-top: 20px;
 }
