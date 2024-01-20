@@ -1,0 +1,109 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.heading{
+ width: 100%;
+ margin-top: 2%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ font-style: italic;
+ font-weight: bolder;
+ font-size: larger;
+}
+.line{
+width: 100%;
+margin-top: -3px;
+border: 1px solid black;
+}
+#title{
+    
+    font-size: 7.4vw;
+    font-weight: bolder;
+    max-width: 100%;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    gap:5px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.one{
+    width: 350px;
+    height: 450px;
+    margin-right: 35px;
+    
+}
+.two {
+    width: 700px;
+    height: 450px;
+    position: relative;
+}
+.two img{
+    max-width: 100vw;
+    max-height: 100vh;
+   
+}
+.brown-bg{
+    background-color: brown;
+    display: inline;
+    color: whitesmoke;
+    padding: 3px;
+}
+.dark-heading{
+    font-weight: bold;
+}
+@media only screen and (max-width: 400px){
+    .two{
+        margin-top: 120px;
+    }
+}
+
+.flex-container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:5px;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.img2{
+    width: 360px;
+    height: 100vh;
+}
+.img3 {
+    width: 360px;
+    height: 100vh;
+}
+.img4 {
+    width: 360px;
+    height: 100vh;
+}
+.flex-images{
+    width: 360px;
+    height: 230px;
+}
+.flex-textBold{
+    margin-top: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+.centerText{
+    text-align: center;
+    color: rgb(165, 8, 8);
+    font-weight: bold;
+}
+
+.lastLine{
+       width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-style: italic;
+        font-weight: bolder;
+        font-size: larger;
+}
